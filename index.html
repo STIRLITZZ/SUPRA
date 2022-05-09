@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./basic.css" type="text/css">
+</head>
+
+<body>
+
+<form action="" id="formsme">
+    <div id="articles">
+      <div class="row">
+
+        <div class="" id="container">
+          <h1>Introdu Date</h1><br>
+          <div>
+              <label for="firstName">First name: </label>
+              <input type="text" id="firstName">
+              <div class="error" id="firstNameError"><span id="nameError" class="total">Numele este introdus gresit</span></div>
+          </div><br>
+
+          <div>
+              <label for="firstName">Last name: </label>
+              <input type="text" id="LastName" >
+              <div class="error" id="LastNameError"></div>
+          </div><br>
+
+          <div>
+              <label for="firstName">Email: </label>
+              <input type="text" id="Email" >
+              <div class="error" id="EmailError"><span id="emailError" class="total">Email-ul este introdus gresit</span></div>
+          </div><br>
+
+          <div>
+              <label for="firstName">Telefon: </label>
+              <input type="text" id="Telefon" >
+              <div class="error" id="TelefonError"><span id="telefonError" class="total">Telefonul este introdus gresit</span></div>
+          </div><br>
+
+          <div>
+              <label for="firstName">Adresa: </label>
+              <input type="text" id="Adresa" >
+          </div><br>
+
+          <h2>Link Social</h2><br>
+            <div>
+                <label for="firstName"></label>
+                <input type="text" id="link" >
+                <div class="error" id="LinkError"><span id="linkError" class="total">Link-ul este introdus gresit</span></div>
+            </div><br>
+
+          <button type="button" name="button" id= "educA" class="frm">+Educatie</button>
+          <div class="total" id="dddd">
+
+
+            <h2>Educatie</h2><br>
+
+            <div>
+                <label for="firstName">Institutia: </label>
+                <input type="text" id="Institutia" >
+            </div><br>
+
+            <div>
+                <label for="firstName">Data inceputului: </label>
+                <input type="date" id="DataIncE" >
+                <div class="error" id="DataIncEError"> <span id="dataIncEError" class="total">Introdu data</span> </div>
+            </div>
+            <br>
+            <br>
+
+            <div>
+                <label for="firstName">Data sfirsitului: </label>
+                <input type="date" id="DataSfrE" >
+                <div class="error" id="DataSfrEError"><span id="dataSfrEError" class="total">Introdu data</span></div>
+            </div><br>
+
+
+
+            <div>
+                <label for="firstName">Tipul: </label>
+                <select class="" id="education" name=""></select>
+
+
+            </div><br>
+          </div>
+          <br><br><br>
+          <button type="button" name="button" id= "lucrA" class="frm">+Lucru</button>
+          <div class="total" id="aaaa">
+          <h2>Lucru</h2><br>
+
+          <div>
+
+            <div>
+                <label for="firstName">Profesie: </label>
+                <select class="" id="profession" name="">
+                </select>
+            </div><br>
+
+              <label for="firstName">Postul: </label>
+              <select class="" id ="jobName" name="">
+
+              </select>
+          </div><br>
+
+          <div>
+              <label for="firstName">Data inceputului: </label>
+              <input type="date" id="DataIncL" >
+              <div class="error" id="DataIncLError"><span id="dataIncLError" class="total">Introdu data</span></div>
+          </div>
+          <br>
+          <br>
+          <div>
+              <label for="firstName">Data sfirsitului: </label>
+              <input type="date" id="DataSfrL" >
+              <div class="error" id="DataSfrLError"><span id="dataSfrLError" class="total">Introdu data</span></div>
+          </div><br>
+
+          <div>
+              <label for="firstName">Orasul: </label>
+              <select class="" id ="city" name="">
+                <option value="0" selected></option>
+                <option value="Chișinău">Chisinau</option>
+                <option value="Orhei">Orhei</option>
+                <option value="Bender">Bender</option>
+                <option value="Soroca">Soroca</option>
+                <option value="Tiraspol">Tiraspol</option>
+                <option value="Bălți">Bălți</option>
+                <option value="Nisporeni">Nisporeni</option>
+              </select>
+          </div><br>
+
+          <div>
+              <label for="firstName">Compania: </label>
+              <select class="" id ="company" name="">
+
+              </select>
+
+          </div><br>
+          </div>
+        <div><br><br>
+            <button type="button" id="buton" class="frm">
+                Submit
+            </button>
+        </div>
+      </div>
+    </div>
+
+    </div>
+</form>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+    <script src="actions.js"></script>
+</body>
+
+</html>
