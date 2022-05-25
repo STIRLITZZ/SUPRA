@@ -1,0 +1,82 @@
+.title {
+  color:#696969;
+}
+.text {
+  font-family: "Calibri";
+  margin-left: 340px;
+  margin-right: 340px;
+}
+
+.fons{/*fonul de sus*/
+  background-color:#f5f5f5;
+}
+
+.hr1 {
+  background-color:#696969;
+  width : 740px;
+  height: 2px;
+}
+
+li {
+  color:#696969;
+}
+
+.marginT{/*margina pentru tot tetul*/
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.marginP{/*margina pentru tetul din subgrafuri*/
+  margin-left: 50px;
+  margin-right: 40px;
+}
+
+h3 {
+  font-weight:bold;
+  color:#000000;
+}
+.hr2{
+  background-color:#696969;
+  width : 660px;
+  height: 2px;
+}
+
+.hr3{
+  background-color:#696969;
+  width : 660px;
+  height: 1px;
+}
+
+.text-italic{
+  color:#A9A9A9;
+  font-style: italic;
+}
+
+.text-grey{
+  	color:#A9A9A9;
+}
+
+.tabelul{
+  border-collapse: collapse;
+  font-size:0.9em;
+  margin: 25px 0;
+  min-width: 650px;
+  border-top: 2px solid #f5f5f5;
+  border-bottom: 2px solid #f5f5f5;
+}
+
+.tabelul tbody tr {
+  border-bottom: 2px solid #f5f5f5;
+  border-top: 2px solid #f5f5f5;
+}
+
+.fonRind2{
+  background-color:#f5f5f5;
+}
+
+.imagine{
+  height:50px;
+  position: absolute;
+  left: 900px;
+  top: 30px;
+}
